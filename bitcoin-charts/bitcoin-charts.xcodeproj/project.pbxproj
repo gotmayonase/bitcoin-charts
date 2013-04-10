@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27C33F9317162A210027C96F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C33F9217162A210027C96F /* UIKit.framework */; };
+		27C33F9517162A210027C96F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C33F9417162A210027C96F /* Foundation.framework */; };
+		27C33F9717162A210027C96F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C33F9617162A210027C96F /* CoreGraphics.framework */; };
+		27C33F9D17162A210027C96F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27C33F9B17162A210027C96F /* InfoPlist.strings */; };
+		27C33F9F17162A210027C96F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C33F9E17162A210027C96F /* main.m */; };
+		27C33FA317162A210027C96F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C33FA217162A210027C96F /* AppDelegate.m */; };
+		27C33FA517162A210027C96F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 27C33FA417162A210027C96F /* Default.png */; };
+		27C33FA717162A210027C96F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27C33FA617162A210027C96F /* Default@2x.png */; };
+		27C33FA917162A210027C96F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27C33FA817162A210027C96F /* Default-568h@2x.png */; };
+		27C33FAC17162A210027C96F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C33FAA17162A210027C96F /* MainStoryboard.storyboard */; };
+		27C33FAF17162A210027C96F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C33FAE17162A210027C96F /* ViewController.m */; };
+		27C33FB717162A210027C96F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C33FB617162A210027C96F /* SenTestingKit.framework */; };
+		27C33FB817162A210027C96F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C33F9217162A210027C96F /* UIKit.framework */; };
+		27C33FB917162A210027C96F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C33F9417162A210027C96F /* Foundation.framework */; };
+		27C33FC117162A210027C96F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27C33FBF17162A210027C96F /* InfoPlist.strings */; };
+		27C33FC417162A210027C96F /* bitcoin_chartsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C33FC317162A210027C96F /* bitcoin_chartsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27C33FBA17162A210027C96F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27C33F8717162A210027C96F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27C33F8E17162A210027C96F;
+			remoteInfo = "bitcoin-charts";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27C33F8F17162A210027C96F /* bitcoin-charts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bitcoin-charts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C33F9217162A210027C96F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27C33F9417162A210027C96F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		27C33F9617162A210027C96F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		27C33F9A17162A210027C96F /* bitcoin-charts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bitcoin-charts-Info.plist"; sourceTree = "<group>"; };
+		27C33F9C17162A210027C96F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27C33F9E17162A210027C96F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27C33FA017162A210027C96F /* bitcoin-charts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bitcoin-charts-Prefix.pch"; sourceTree = "<group>"; };
+		27C33FA117162A210027C96F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27C33FA217162A210027C96F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27C33FA417162A210027C96F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		27C33FA617162A210027C96F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		27C33FA817162A210027C96F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		27C33FAB17162A210027C96F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		27C33FAD17162A210027C96F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		27C33FAE17162A210027C96F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		27C33FB517162A210027C96F /* bitcoin-chartsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bitcoin-chartsTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C33FB617162A210027C96F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		27C33FBE17162A210027C96F /* bitcoin-chartsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bitcoin-chartsTests-Info.plist"; sourceTree = "<group>"; };
+		27C33FC017162A210027C96F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27C33FC217162A210027C96F /* bitcoin_chartsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bitcoin_chartsTests.h; sourceTree = "<group>"; };
+		27C33FC317162A210027C96F /* bitcoin_chartsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bitcoin_chartsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27C33F8C17162A210027C96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C33F9317162A210027C96F /* UIKit.framework in Frameworks */,
+				27C33F9517162A210027C96F /* Foundation.framework in Frameworks */,
+				27C33F9717162A210027C96F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C33FB117162A210027C96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C33FB717162A210027C96F /* SenTestingKit.framework in Frameworks */,
+				27C33FB817162A210027C96F /* UIKit.framework in Frameworks */,
+				27C33FB917162A210027C96F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27C33F8617162A210027C96F = {
+			isa = PBXGroup;
+			children = (
+				27C33F9817162A210027C96F /* bitcoin-charts */,
+				27C33FBC17162A210027C96F /* bitcoin-chartsTests */,
+				27C33F9117162A210027C96F /* Frameworks */,
+				27C33F9017162A210027C96F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27C33F9017162A210027C96F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27C33F8F17162A210027C96F /* bitcoin-charts.app */,
+				27C33FB517162A210027C96F /* bitcoin-chartsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27C33F9117162A210027C96F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27C33F9217162A210027C96F /* UIKit.framework */,
+				27C33F9417162A210027C96F /* Foundation.framework */,
+				27C33F9617162A210027C96F /* CoreGraphics.framework */,
+				27C33FB617162A210027C96F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27C33F9817162A210027C96F /* bitcoin-charts */ = {
+			isa = PBXGroup;
+			children = (
+				27C33FA117162A210027C96F /* AppDelegate.h */,
+				27C33FA217162A210027C96F /* AppDelegate.m */,
+				27C33FAA17162A210027C96F /* MainStoryboard.storyboard */,
+				27C33FAD17162A210027C96F /* ViewController.h */,
+				27C33FAE17162A210027C96F /* ViewController.m */,
+				27C33F9917162A210027C96F /* Supporting Files */,
+			);
+			path = "bitcoin-charts";
+			sourceTree = "<group>";
+		};
+		27C33F9917162A210027C96F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27C33F9A17162A210027C96F /* bitcoin-charts-Info.plist */,
+				27C33F9B17162A210027C96F /* InfoPlist.strings */,
+				27C33F9E17162A210027C96F /* main.m */,
+				27C33FA017162A210027C96F /* bitcoin-charts-Prefix.pch */,
+				27C33FA417162A210027C96F /* Default.png */,
+				27C33FA617162A210027C96F /* Default@2x.png */,
+				27C33FA817162A210027C96F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27C33FBC17162A210027C96F /* bitcoin-chartsTests */ = {
+			isa = PBXGroup;
+			children = (
+				27C33FC217162A210027C96F /* bitcoin_chartsTests.h */,
+				27C33FC317162A210027C96F /* bitcoin_chartsTests.m */,
+				27C33FBD17162A210027C96F /* Supporting Files */,
+			);
+			path = "bitcoin-chartsTests";
+			sourceTree = "<group>";
+		};
+		27C33FBD17162A210027C96F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27C33FBE17162A210027C96F /* bitcoin-chartsTests-Info.plist */,
+				27C33FBF17162A210027C96F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27C33F8E17162A210027C96F /* bitcoin-charts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C33FC717162A210027C96F /* Build configuration list for PBXNativeTarget "bitcoin-charts" */;
+			buildPhases = (
+				27C33F8B17162A210027C96F /* Sources */,
+				27C33F8C17162A210027C96F /* Frameworks */,
+				27C33F8D17162A210027C96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bitcoin-charts";
+			productName = "bitcoin-charts";
+			productReference = 27C33F8F17162A210027C96F /* bitcoin-charts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27C33FB417162A210027C96F /* bitcoin-chartsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C33FCA17162A210027C96F /* Build configuration list for PBXNativeTarget "bitcoin-chartsTests" */;
+			buildPhases = (
+				27C33FB017162A210027C96F /* Sources */,
+				27C33FB117162A210027C96F /* Frameworks */,
+				27C33FB217162A210027C96F /* Resources */,
+				27C33FB317162A210027C96F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27C33FBB17162A210027C96F /* PBXTargetDependency */,
+			);
+			name = "bitcoin-chartsTests";
+			productName = "bitcoin-chartsTests";
+			productReference = 27C33FB517162A210027C96F /* bitcoin-chartsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27C33F8717162A210027C96F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Mike Mayo";
+			};
+			buildConfigurationList = 27C33F8A17162A210027C96F /* Build configuration list for PBXProject "bitcoin-charts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27C33F8617162A210027C96F;
+			productRefGroup = 27C33F9017162A210027C96F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27C33F8E17162A210027C96F /* bitcoin-charts */,
+				27C33FB417162A210027C96F /* bitcoin-chartsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27C33F8D17162A210027C96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C33F9D17162A210027C96F /* InfoPlist.strings in Resources */,
+				27C33FA517162A210027C96F /* Default.png in Resources */,
+				27C33FA717162A210027C96F /* Default@2x.png in Resources */,
+				27C33FA917162A210027C96F /* Default-568h@2x.png in Resources */,
+				27C33FAC17162A210027C96F /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C33FB217162A210027C96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C33FC117162A210027C96F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27C33FB317162A210027C96F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27C33F8B17162A210027C96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C33F9F17162A210027C96F /* main.m in Sources */,
+				27C33FA317162A210027C96F /* AppDelegate.m in Sources */,
+				27C33FAF17162A210027C96F /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C33FB017162A210027C96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C33FC417162A210027C96F /* bitcoin_chartsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27C33FBB17162A210027C96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27C33F8E17162A210027C96F /* bitcoin-charts */;
+			targetProxy = 27C33FBA17162A210027C96F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27C33F9B17162A210027C96F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27C33F9C17162A210027C96F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27C33FAA17162A210027C96F /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27C33FAB17162A210027C96F /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		27C33FBF17162A210027C96F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27C33FC017162A210027C96F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27C33FC517162A210027C96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		27C33FC617162A210027C96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27C33FC817162A210027C96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bitcoin-charts/bitcoin-charts-Prefix.pch";
+				INFOPLIST_FILE = "bitcoin-charts/bitcoin-charts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		27C33FC917162A210027C96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bitcoin-charts/bitcoin-charts-Prefix.pch";
+				INFOPLIST_FILE = "bitcoin-charts/bitcoin-charts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		27C33FCB17162A210027C96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/bitcoin-charts.app/bitcoin-charts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bitcoin-charts/bitcoin-charts-Prefix.pch";
+				INFOPLIST_FILE = "bitcoin-chartsTests/bitcoin-chartsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		27C33FCC17162A210027C96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/bitcoin-charts.app/bitcoin-charts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bitcoin-charts/bitcoin-charts-Prefix.pch";
+				INFOPLIST_FILE = "bitcoin-chartsTests/bitcoin-chartsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27C33F8A17162A210027C96F /* Build configuration list for PBXProject "bitcoin-charts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C33FC517162A210027C96F /* Debug */,
+				27C33FC617162A210027C96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27C33FC717162A210027C96F /* Build configuration list for PBXNativeTarget "bitcoin-charts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C33FC817162A210027C96F /* Debug */,
+				27C33FC917162A210027C96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		27C33FCA17162A210027C96F /* Build configuration list for PBXNativeTarget "bitcoin-chartsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C33FCB17162A210027C96F /* Debug */,
+				27C33FCC17162A210027C96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27C33F8717162A210027C96F /* Project object */;
+}
